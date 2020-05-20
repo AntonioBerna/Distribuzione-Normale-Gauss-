@@ -1,4 +1,4 @@
-# Descrizione del progetto
+# Distribuzione Normale di Carl Friedrich Gauss
 
 Utilizzando le famose librerie di Python (Matplotlib, Numpy, Scipy) è stato creato un programma che simula la Distribuzione Normale di Gauss. Partendo dalla funzione matematica e facendo variare con degli opportuni slider i parametri di varianza e valore atteso (grazie alla potenza di Matplotlib) non è stato difficile realizzare un grafico della distribuzione.
 
