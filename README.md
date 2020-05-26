@@ -1,6 +1,6 @@
 # Distribuzione Normale di Carl Friedrich Gauss
 
-Nella teoria della probabilità la distribuzione normale, o di Gauss (o gaussiana) dal nome del matematico tedesco Carl Friedrich Gauss, è una distribuzione di probabilità continua che è spesso usata come prima approssimazione per descrivere variabili casuali a valori reali che tendono a concentrarsi attorno a un singolo valor medio. Il grafico della funzione di densità di probabilità associata è simmetrico e ha una forma a campana, nota come campana di Gauss (o anche come curva degli errori, curva a campana, ogiva).
+Nella teoria della probabilità la distribuzione normale, o di Gauss (o gaussiana) dal nome del matematico tedesco Carl Friedrich Gauss, è una distribuzione di probabilità continua che è spesso usata come prima approssimazione per descrivere variabili casuali a valori reali che tendono a concentrarsi attorno a un singolo valor medio. Il grafico della funzione di densità di probabilità associata è simmetrico e ha una forma a campana, nota come campana di Gauss (o anche come curva degli errori).
 
 La distribuzione normale dipende da due parametri, la media μ e la varianza σ^2, ed è indicata tradizionalmente con:
 
