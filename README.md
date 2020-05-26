@@ -6,6 +6,12 @@ La distribuzione normale dipende da due parametri, la media μ e la varianza σ2
 
 ![](image/ad0c462e4e3200126b15a81d4e6e1dc5ff5932de.svg)
 
+La distribuzione normale è caratterizzata dalla seguente funzione di densità di probabilità, cui spesso si fa riferimento con la dizione curva di Gauss o gaussiana:
+
+![](image/12210c115c9301f98fc9f1c1abc8b2192b6eefc5.svg)
+
+Dove μ è il valore atteso e σ^2 la varianza.
+
 # Per maggiori informazioni
 
 Spiegazione online Distribuzione Normale di Gauss con Python: https://www.youtube.com/watch?v=2_sL1sfnRvk&t=239s
