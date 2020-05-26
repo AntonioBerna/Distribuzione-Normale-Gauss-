@@ -6,7 +6,7 @@ La distribuzione normale dipende da due parametri, la media μ e la varianza σ^
 
 ![](image/ad0c462e4e3200126b15a81d4e6e1dc5ff5932de.svg)
 
-La distribuzione normale è caratterizzata dalla seguente funzione di densità di probabilità, cui spesso si fa riferimento con la dizione curva di Gauss o gaussiana:
+La distribuzione normale è caratterizzata dalla seguente funzione di densità di probabilità:
 
 ![](image/12210c115c9301f98fc9f1c1abc8b2192b6eefc5.svg)
 
