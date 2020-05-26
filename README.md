@@ -1,6 +1,6 @@
 # Distribuzione Normale di Carl Friedrich Gauss
 
-Utilizzando le famose librerie di Python (Matplotlib, Numpy, Scipy) è stato creato un programma che simula la Distribuzione Normale di Gauss. Partendo dalla funzione matematica e facendo variare con degli opportuni slider i parametri di varianza e valore atteso (grazie alla potenza di Matplotlib) non è stato difficile realizzare un grafico della distribuzione.
+Nella teoria della probabilità la distribuzione normale, o di Gauss (o gaussiana) dal nome del matematico tedesco Carl Friedrich Gauss, è una distribuzione di probabilità continua che è spesso usata come prima approssimazione per descrivere variabili casuali a valori reali che tendono a concentrarsi attorno a un singolo valor medio. Il grafico della funzione di densità di probabilità associata è simmetrico e ha una forma a campana, nota come campana di Gauss (o anche come curva degli errori, curva a campana, ogiva).
 
 # Per maggiori informazioni
 
