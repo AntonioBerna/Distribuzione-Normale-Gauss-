@@ -12,6 +12,22 @@ La distribuzione normale è caratterizzata dalla seguente funzione di densità d
 
 Dove μ è il valore atteso e σ^2 la varianza.
 
+La rappresentazione grafica della distribuzione normale è la seguente:
+
+![](image/Figure_1.png)
+
+Se modifico il valore della varianza σ^2 facendolo crescere, si nota come diminuisce il picco massimo e come aumenta l'area sottesa alla curva di Gauss:
+
+![](image/Figure_2.png)
+
+Mentre se diminuisco di molto il valore della varianza σ^2, quindi prossimo allo zero, si nota come aumenta il picco massimo e come dimiuscire l'area sottesa alla curva di Gauss:
+
+![](image/Figure_3.png)
+
+Finora il valore atteso μ è rimasto fisso a zero però, se si aumenta il suo valore, si nota come la curva di Gauss trasla verso destra:
+
+![](image/Figure_4.png)
+
 # Per maggiori informazioni
 
 Spiegazione online Distribuzione Normale di Gauss con Python: https://www.youtube.com/watch?v=2_sL1sfnRvk&t=239s
