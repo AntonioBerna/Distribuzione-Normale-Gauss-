@@ -4,7 +4,7 @@ Nella teoria della probabilità la distribuzione normale, o di Gauss (o gaussian
 
 La distribuzione normale dipende da due parametri, la media μ e la varianza σ2, ed è indicata tradizionalmente con:
 
-![]()
+![](image/ad0c462e4e3200126b15a81d4e6e1dc5ff5932de.svg)
 
 # Per maggiori informazioni
 
