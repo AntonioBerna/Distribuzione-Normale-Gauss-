@@ -46,4 +46,4 @@ Spiegazione online Distribuzione Normale di Gauss con Python: https://www.youtub
 
 Distribuzione Normale [Teoria] : https://it.wikipedia.org/wiki/Distribuzione_normale
 
-Created By Antonio Bernardini Copyright© 2020
+Created By Antonio Bernardini Copyright© 2021
