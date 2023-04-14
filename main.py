@@ -12,6 +12,7 @@ class GaussPlot:
         plt.subplots_adjust(left=0.1, bottom=0.25)
         self.line, = self.ax.plot(self.x, self.gauss(self.x))
         self.ax.set_ylim([0, 0.5])
+        self.ax.grid()
         self.ax_mu = plt.axes([0.1, 0.1, 0.8, 0.03])
         self.ax_sigma = plt.axes([0.1, 0.15, 0.8, 0.03])
         self.slider_mu = Slider(self.ax_mu, 'Media', -3, 3, valinit=self.mu)
