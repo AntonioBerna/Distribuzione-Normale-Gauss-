@@ -19,13 +19,13 @@ Se non sai in che posizione mettere il progetto, puoi scegliere il **Dektop** pe
 Quindi usa il comando:
 
 ```shell
-git clone https://github.com/AntonioBerna/gauss-distribution.git
+[Desktop]$ git clone https://github.com/AntonioBerna/gauss-distribution.git
 ```
 
 Benissimo! Accedendo alla cartella ```gauss-distribution``` creiamo un ambiente virtuale con il seguente comando:
 
 ```shell
-virtualenv venv
+[gauss-distribution]$ virtualenv venv
 ```
 
 > **NOTA:** ```venv``` è il nome dell'ambiente virtuale, puoi scegliere il nome che preferisci!
@@ -33,22 +33,28 @@ virtualenv venv
 Il prossimo passo è attivare l'ambiente virtuale appena creato:
 
 ```shell
-source venv/bin/activate
+[gauss-distribution]$ source venv/bin/activate
 ```
 
 >**NOTA**: anche in questo caso al posto di ```venv``` devi mettere il nome del tuo ambiente virtuale! (non lo ripeterò più)
 
+Ora bisogna installare le dipendenze per far funzionare il software di simulazione con il comando:
+
+```
+(venv) [gauss-distribution]$ pip install -r requirements.txt
+```
+
 Nella repository ti ho fornito un ```Makefile``` che ti permetterà di creare l'eseguibile, in particolare devi scrivere:
 
 ```shell
-make
+(venv) [gauss-distribution]$ make
 ```
 
 Al termine del processo verrano creati alcuni file e cartelle.
 In particolare accedendo alla cartella ```dist/``` troverai l'eseguibile. Quindi scrivendo il comando:
 
 ```shell
-./pippo
+(venv) [dist]$ ./pippo
 ```
 
 si avvierà il software di simulazione.
