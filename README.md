@@ -1,41 +1,64 @@
 # Distribuzione Normale di Gauss
 
-Nella teoria della probabilità la distribuzione normale, o di Gauss (o gaussiana) dal nome del matematico tedesco Carl Friedrich Gauss, è una distribuzione di probabilità continua che è spesso usata come prima approssimazione per descrivere variabili casuali a valori reali che tendono a concentrarsi attorno a un singolo valor medio. Il grafico della funzione di densità di probabilità associata è simmetrico e ha una forma a campana, nota come campana di Gauss (o anche come curva degli errori).
-
 La distribuzione normale dipende da due parametri, la media $\mu$ e la varianza $\sigma^2$, ed è indicata tradizionalmente con: $$N(\mu, \sigma^2)$$
 
-La distribuzione normale è caratterizzata dalla seguente funzione di densità di probabilità: $$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}, \ \ \ x \in \mathbb{R}$$
-
-dove $\mu$ è la media (o valore atteso) e $\sigma^2$ è la varianza.
+Inoltre è caratterizzata dalla seguente funzione di densità di probabilità: $$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}, \ \ \ x \in \mathbb{R}$$
 
 La rappresentazione grafica della distribuzione normale è la seguente:
 
 <p align="center">
-	<img src="image/Figure_1.png">  
+	<img src="imgs/Figure_1.png" width="600">
 </p>
 
-Se modifico il valore della varianza $\sigma^2$ facendolo crescere, si nota come diminuisce il picco massimo e come aumenta l'area sottesa alla curva di Gauss:
+Per maggiori informazioni consultare la pagina di Wikipedia: https://it.wikipedia.org/wiki/Distribuzione_normale
 
-<p align="center">
-	<img src="image/Figure_2.png">
-</p>
+# Utilizzo del software di simulazione
 
-Mentre se diminuisco di molto il valore della varianza $\sigma^2$, quindi prossimo allo zero, si nota come aumenta il picco massimo e come dimiuscire l'area sottesa alla curva di Gauss:
+Prima di tutto devi clonare la repository nel tuo computer.
+Se non sai in che posizione mettere il progetto, puoi scegliere il **Dektop** per semplicità.
+Quindi usa il comando:
 
-<p align="center">
-	<img src="image/Figure_3.png">  
-</p>
+```shell
+git clone https://github.com/AntonioBerna/gauss-distribution.git
+```
 
-Finora il valore atteso $\mu$ è rimasto fisso a zero però, se si aumenta il suo valore, si nota come la curva di Gauss trasla verso destra:
+Benissimo! Accedendo alla cartella ```gauss-distribution``` creiamo un ambiente virtuale con il seguente comando:
 
-<p align="center">
-	<img src="image/Figure_4.png">  
-</p>
+```shell
+virtualenv venv
+```
+
+> **NOTA:** ```venv``` è il nome dell'ambiente virtuale, puoi scegliere il nome che preferisci!
+
+Il prossimo passo è attivare l'ambiente virtuale appena creato:
+
+```shell
+source venv/bin/activate
+```
+
+>**NOTA**: anche in questo caso al posto di ```venv``` devi mettere il nome del tuo ambiente virtuale! (non lo ripeterò più)
+
+Nella repository ti ho fornito un ```Makefile``` che ti permetterà di creare l'eseguibile, in particolare devi scrivere:
+
+```shell
+make
+```
+
+Al termine del processo verrano creati alcuni file e cartelle.
+In particolare accedendo alla cartella ```dist/``` troverai l'eseguibile. Quindi scrivendo il comando:
+
+```shell
+./pippo
+```
+
+si avvierà il software di simulazione.
+
+> **NOTA:** come possiamo notare l'eseguibile si chiama ```pippo``` ma è possibile cambiare il nome accedendo al ```Makefile``` e cambiando l'etichetta ```TARGET```. Per esempio ```TARGET=cavallo```.
 
 # Per maggiori informazioni
 
 Spiegazione online Distribuzione Normale di Gauss con Python (vecchio codice): https://www.youtube.com/watch?v=2_sL1sfnRvk&t=239s
 
-Distribuzione Normale [Teoria] : https://it.wikipedia.org/wiki/Distribuzione_normale
+
 
 Created By Antonio Bernardini Copyright© 2023

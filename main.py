@@ -8,7 +8,7 @@ class GaussPlot:
         self.sigma = sigma
         self.x_range = x_range
         self.x = np.linspace(*x_range, 1000)
-        self.fig, self.ax = plt.subplots()
+        self.fig, self.ax = plt.subplots(figsize=(8, 5))
         plt.subplots_adjust(left=0.1, bottom=0.25)
         self.line, = self.ax.plot(self.x, self.gauss(self.x))
         self.ax.set_ylim([0, 0.5])
