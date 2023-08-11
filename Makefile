@@ -6,7 +6,10 @@ PYFLAGS=--onefile -n $(TARGET) -p $(VIRTUAL_ENV) --hidden-import=PIL._tkinter_fi
 all:
 	$(PYC) $(PYFLAGS) $(SRCS)
 
-.PHONY: clean
+.PHONY: clean run
+
+run:
+	./dist/$(TARGET)
 
 clean:
 	$(RM) -r dist/ build/ $(TARGET).spec
